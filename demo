@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 var s:String = "123";
 var m:String = "master"
 
+=======
+s:String = "123";
+
+var d:String = "dev"
+>>>>>>> dev
 
 func sayHello(personName: String) -> String {
     let greeting = "Hello, " + personName + "!"
