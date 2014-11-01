@@ -1,0 +1,18 @@
+var s:String = "123";
+var m:String = "master"
+
+
+func sayHello(personName: String) -> String {
+    let greeting = "Hello, " + personName + "!"
+    return greeting
+}
+
+func sayMaster(masterName:String) -> String {
+	let master = "hello," + masterName + "!"
+	return master
+}
+
+func sayDec(devName:String) -> String {
+	let dev = "hello, " + devName + "!"
+	return dev
+}
